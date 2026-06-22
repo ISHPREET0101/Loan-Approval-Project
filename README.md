@@ -111,11 +111,11 @@ Logistic Regression  │  KNN  │  NB  │
    
 Evaluate: Accuracy · Precision · Recall · F1 · Confusion Matrix
 
-<img width="1435" height="465" alt="image" src="https://github.com/user-attachments/assets/3d51c32a-4f70-4ed5-a88d-742b7d7411e6" />
-
-
 
 
 📈 Models Compared
 
 ModelNotesLogistic RegressionBaseline linear model; run twice (before & after feature engineering)K-Nearest Neighborsn_neighbors=5; distance-based classificationNaive BayesGaussian NB; probabilistic approach
+
+<img width="1435" height="465" alt="image" src="https://github.com/user-attachments/assets/3d51c32a-4f70-4ed5-a88d-742b7d7411e6" />
+
