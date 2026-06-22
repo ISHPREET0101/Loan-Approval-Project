@@ -93,9 +93,8 @@ StandardScaler
 
    │
    ▼
-┌──────────────────────────────────────┐
-│  Logistic Regression  │  KNN  │  NB  │
-└──────────────────────────────────────┘
+   
+Logistic Regression  │  KNN  │  NB  │
 
    │
    ▼
