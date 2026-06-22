@@ -59,45 +59,55 @@ gradio — interactive web demo
 
 Raw Data (loan_approval_data.csv)
 
-   │
-   ▼
+      │
+      
+      ▼
 Impute Missing Values (mean / mode)
 
-   │
-   ▼
+      │
+      ▼
+      
 EDA — class balance, distributions, boxplots, correlation heatmap
 
-   │
-   ▼
+      │
+      
+      ▼
 Drop Applicant_ID
 
-   │
-   ▼
+      │
+      
+      ▼
+      
 Label Encode (Education_Level, Loan_Approved)
 One-Hot Encode (Employment_Status, Marital_Status, Loan_Purpose,
                 Property_Area, Gender, Employer_Category)
                 
-   │
-   ▼
-Feature Engineering
+      │
+      
+      ▼
+   Feature Engineering
    ├── DTI_Ratio² · Credit_Score²
    └── log1p(Applicant_Income)
    
-   │
-   ▼
+      │
+      
+      ▼
 Train/Test Split (80/20, random_state=42)
 
-   │
-   ▼
+      │
+      
+      ▼
 StandardScaler
 
-   │
-   ▼
+      │
+      
+      ▼
    
 Logistic Regression  │  KNN  │  NB  │
 
-   │
-   ▼
+      │
+      
+      ▼
    
 Evaluate: Accuracy · Precision · Recall · F1 · Confusion Matrix
 
